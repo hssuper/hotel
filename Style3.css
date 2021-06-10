@@ -16,6 +16,7 @@ header{
 	color:rgb(0, 0, 0);
 	text-align:center;
 	
+	
 }   
 body{
 	width:100%;
@@ -28,6 +29,7 @@ body{
 	background-size:100%;
 	color:rgb(0, 0, 0);
 	text-align:center;
+	
 	
 }
 h1{
@@ -50,4 +52,14 @@ h2{
 	background-attachment: fixed;
 	background-position: center;
     text-align:center;
+}
+div{
+	width: 12%;
+	height:40%;
+	
+	float: right;
+	background-image: url('img/img1.png');
+	background-size:100%;
+	
+	
 }
