@@ -1,38 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!-- saved from url=(0033)http://127.0.0.1:5500/objeto.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="Style3.css">
+    
     <title>
         Operadores Aritmedicos
     </title>
-</head>
+<link rel="stylesheet" href="./objeto_files/Style3.css"></head>
 
 <body> 
     
     <div>
          
-         <p id="demo"></p>
+         <p id="demo">Junho 15 2021 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>
          
             
     </div> 
    <header><h1>San Alfonso del Mar</h1></header>
        
 
-    <h2 id="totalQuartos">totalQuartos</h2>
+    <h2 id="totalQuartos">100</h2>
     <br>
-    <h2 id="reservados">Reservados</h2>
+    <h2 id="reservados">30</h2>
     <br>
    <h2><button id="disponibilidade">Disponibilidade</button></h2>
 
-    <script src="js/objeto.js"></script>
+    <script src="./objeto_files/objeto.js.download"></script>
     
     <script>
-        const d = new Date("Jun 10, 2021 00:00:00");
+        var d = new Date("Junho, 10, 2021, 00:00:00");
                     document.getElementById("demo").innerHTML = d;
                     </script>
     
-</body>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+</body></html>
