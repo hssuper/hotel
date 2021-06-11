@@ -17,11 +17,6 @@ reserva.textContent = hotel.reservados;
 
 
 
-var nomeDia = document.getElementById(['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado']);
-nomeDia.textContent = d.nomeDia;
 
-var nomeMes = document.getElementById(['janeiro', 'fevereiro', 'março', 'abrio', 'maio', 'junho', 'julho',
-    'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']);
-nomeMes.textContent = d.nomeMes;
 
 
