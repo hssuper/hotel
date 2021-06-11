@@ -1,0 +1,11 @@
+body{
+width: 100%;
+border: 2px solid greenyellow;
+border-radius: initial;
+margin-bottom: 10px;
+font-size: 1.5em;
+padding: 10px 10px;
+box-sizing: border-box;
+resize: none;
+outline: none;
+}
