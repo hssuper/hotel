@@ -8,8 +8,12 @@
         login
     </title>
 </head>
+<header>
 
+</header>
 <body>
+    
+    
     <form id="form-contato" class="formulario">
         <label for="nome">Nome:</label>
         <br>
@@ -31,9 +35,28 @@
         <br>
         <input type="email" id="email" name="email" required>
         <br>
-        <button type="submit">Enviar</button>
+        <form>
+            <INPUT TYPE="RADIO" NAME="pessoa" VALUE="Solteiro" checked> Solteiro
+            <INPUT TYPE="RADIO" NAME="pessoa" VALUE="Casal" checked> Casal
+            <INPUT TYPE="RADIO" NAME="pessoa" VALUE="Casal/Filhos" checked> Casal/Filhos       
+        </form>
+        <br>
+        <label for="especial">Atendimento Especial?:</label>
+        <select name="especial">
+            <option value="não"></option>
+            <option value="auditivo">Auditivo</option>
+            <option value="cadeirante">Cadeirante</option>
+            <option value="gestante">Gestante</option>
+            <option value="idoso">Idoso</option>
+            <option value="visão">Cego</option>
+        </select>
+        <br>
+        <button type="submit" a href="http://127.0.0.1:5500/objeto.html">Enviar</button>
+        
 
-    </form>
+        
+
+
 
     <script src="js/objeto.js"></script>
 </body>

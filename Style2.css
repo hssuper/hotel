@@ -1,11 +1,12 @@
+
 body{
-width: 100%;
-border: 2px solid greenyellow;
+border: 40px solid rgb(63, 255, 229);
 border-radius: initial;
-margin-bottom: 10px;
-font-size: 1.5em;
-padding: 10px 10px;
 box-sizing: border-box;
 resize: none;
 outline: none;
+text-align: center;
+
 }
+
+
