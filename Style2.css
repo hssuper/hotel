@@ -1,12 +1,25 @@
 
 body{
-border: 40px solid rgb(63, 255, 229);
+    height: 400px;
+    background-image: url('img/imgh.jpg');
+background-size: cover;
+}
+div{
+    width:80%;
+    
+	border: 10px solid rgb(0, 0, 0);
 border-radius: initial;
 box-sizing: border-box;
 resize: none;
 outline: none;
 text-align: center;
+color: rgb(0, 0, 0);
+	
+    background-image: url('img/imgh.jpg');
 
 }
+
+
+
 
 
