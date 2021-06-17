@@ -11,49 +11,50 @@
 <header>
     <h1>Faça seu login / Cadastro</h1>
 </header>
+
 <body>
     <div>
         <form id="form-contato" class="formulario">
             <label for="nome">Nome:</label>
             <br>
             <input type="text" id="nome" name="nome" placeholder="nome completo" pattern="" required>
-        
+
             <br>
             <label for="cpf">Cpf:</label>
             <br>
-            <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" pattern="\d{0,3}\.\d{1,3}\.\d{1,3}-\d{1,2}"
-            required>
-        
+            <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF"
+                pattern="\d{0,3}\.\d{1,3}\.\d{1,3}-\d{1,2}" required>
+
             <br>
             <label for="cnpj">CNPJ:</label>
             <br>
-            <input type="text" id="cnpj" name="cnpj" placeholder="Digite seu CNPJ" pattern="^\d{2}\.\d{3}\.\d{3}\.\/0001-\d{2}$"
-            required>
-       
+            <input type="text" id="cnpj" name="cnpj" placeholder="Digite seu CNPJ"
+                pattern="^\d{2}\.\d{3}\.\d{3}\.\/0001-\d{2}$" required>
+
             <br>
             <label for="nascimento">Data de Nascimento:</label>
             <br>
             <input type="date" id="nascimento" name="nascimento" required>
-        
+
             <br>
             <label for="tel">Telefone:</label>
             <br>
-            <input type="tel" id="tel" name="tel" placeholder="(xx)9xxx-xxxx" pattern="\(?\d{2}\)?[\s?]?\d{4,5}-?\d{4}"
-            required>
-        
+            <input type="tel" id="tel" name="tel" placeholder="(xx)9xxx-xxxx" pattern="\(\d{2}\)[\s]?\d{4,5}-\d{4}"
+                >
+
             <br>
             <label for="email">Email:</label>
             <br>
             <input type="email" id="email" name="email" placeholder="Digite seu Email Atual"
-            pattern="([\w].{3,20})@([\w].+)\.([\w]{3,5})" required>
-        
+                pattern="([\w].{3,20})@([\w].+)\.([\w]{3,5})" required>
+
             <br>
             <label for="senha">Senha:</label>
             <br>
             <input type="password" id="senha" name="senha" placeholder="Registre sua Senha" pattern="" required>
-        
+
             <br>
-            
+
             <form>
                 <INPUT TYPE="RADIO" NAME="pessoa" VALUE="Solteiro" checked> Solteiro
                 <INPUT TYPE="RADIO" NAME="pessoa" VALUE="Casal" checked> Casal
@@ -62,16 +63,18 @@
             <br>
             <label for="especial">Atendimento Especial?:</label>
             <select name="especial">
-            <option value="">Escolha</option>
-            <option value="auditivo">Auditivo</option>
-            <option value="cadeirante">Cadeirante</option>
-            <option value="gestante">Gestante</option>
-            <option value="idoso">Idoso</option>
-            <option value="visão">Cego</option>
+                <option value="">Escolha</option>
+                <option value="auditivo">Auditivo</option>
+                <option value="cadeirante">Cadeirante</option>
+                <option value="gestante">Gestante</option>
+                <option value="idoso">Idoso</option>
+                <option value="visão">Cego</option>
             </select>
-            <br>        
-<button type="submit" a href="http://127.0.0.1:5500/objeto.html" checked>Enviar</button>
-<script src="js/objeto.js"></script>
-</div>
+            <br>
+            <button type="submit" a href="http://127.0.0.1:5500/objeto.html" checked>Enviar</button>
+            <script src="js/login.js"></script>
+
+    </div>
 </body>
+
 </html>
