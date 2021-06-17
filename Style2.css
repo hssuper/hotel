@@ -5,6 +5,7 @@ body{
 background-size: cover;
 
 }
+
 div{
     width:80%;
     
@@ -15,12 +16,16 @@ resize: none;
 outline: none;
 text-align: center;
 color: rgb(0, 0, 0);
+
 	
     background-image: url('img/imgh.jpg');
 
 }
-
-
+label{
+    font-size: 25px;
+    color: aquamarine;
+    text-shadow: 1px 1px 3px rgb(21, 255, 0)
+}
 
 
 
